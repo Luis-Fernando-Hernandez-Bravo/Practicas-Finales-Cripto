@@ -42,6 +42,7 @@
         <li><a href="#hobbies" class="reference">Verificación</a></li>
   </ul>
 
+
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
@@ -70,5 +71,22 @@
 
     <script src="jquery-3.6.0.min.js"></script> 
     <script type="text/javascript" src="js/materialize.min.js"></script>	
+    <script>
+   $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.collapsible').collapsible();
+      $('.materialboxed').materialbox();
+      $(".reference").click(function(e) {
+      e.preventDefault();
+        $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top}, 400);
+      });
+
+      $("#download-button").click(function(e) {
+        e.preventDefault();
+          $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top}, 400);
+      });
+      
+    });
+    </script>
 </body>
 </html>

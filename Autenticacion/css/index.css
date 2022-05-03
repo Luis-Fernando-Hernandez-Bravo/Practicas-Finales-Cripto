@@ -1,0 +1,18 @@
+      #criptoText{
+        text-align: justify;
+      }
+      .teal.lighten-1{
+        background-color:#ff914d !important;
+      }
+      .icon-block {
+        padding: 0 15px;
+      }
+      .icon-block .material-icons {
+        font-size: inherit;
+      }
+      .light{
+        text-align: justify !important;
+      }
+      .imagen{
+        opacity: 0.8;
+      }
